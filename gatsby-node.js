@@ -1,5 +1,6 @@
 // Implement the Gatsby API “onCreatePage”. This is
 // called after every page is created.
+/*
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage } = actions
   // Make the front page match everything client side.
@@ -9,3 +10,4 @@ exports.onCreatePage = ({ page, actions }) => {
     createPage(page)
   }
 }
+*/
