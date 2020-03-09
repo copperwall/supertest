@@ -2,7 +2,16 @@ import React from "react";
 import { Router, Link, Location } from "@reach/router";
 
 function Home() {
-  return <h2>Index</h2>;
+  return (
+    <>
+      <h2>Super Index</h2>
+      <ul>
+        <li>
+          <Link to="dashboard">Dashboard</Link>
+        </li>
+      </ul>
+    </>
+  );
 }
 
 function Dashboard() {
