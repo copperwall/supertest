@@ -12,5 +12,9 @@ module.exports = {
     // used to generate rewrites for client only paths
     // on demo hosted on Netlify
     `gatsby-plugin-netlify`,
+    {
+      resolve: 'gatsby-plugin-create-client-paths',
+      options: { prefixes: [`/page/*`, `/super/*`] },
+    }
   ],
 }
